@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Roboto";
+      }
+      h1 {
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+      }
+      .container label {
+        font-size: 25px;
+        margin-top: 40px;
+      }
+      .container textarea {
+        min-width: 100%;
+        max-width: 100%;
+        margin: 20px 0;
+        height: 15vh;
+        padding: 5px 10px;
+        outline: none;
+        font-size: 18px;
+      }
+      .container button {
+        height: 50px;
+        margin-right: 20px;
+      }
+      .container .btnCrypti {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        margin: 0 auto;
+      }
+      .container .btnCrypti button {
+        min-width: 50%;
+        cursor: pointer;
+      }
+
+      .result {
+        display: block;
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin-top: 100px;
+        transition: 2s;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>AlefCripty - por uma conversa mais segura</h1>
+
+    <div class="container">
+      <label>Insira um texto</label>
+      <textarea
+        name="cripty"
+        id=""
+        placeholder="Insira um texto para ser criptografado"
+      ></textarea>
+      <div class="btnCrypti">
+        <button>Criptografar</button>
+        <button>Descriptografar</button>
+      </div>
+      <div class="result">
+        <label>Resultado</label>
+        <textarea name="cryptOut"></textarea>
+      </div>
+    </div>
+    <div class="footer">
+      <h1>by Alef Santos</h1>
+    </div>
+    <script src="desafio10.js"></script>
+  </body>
+</html>
