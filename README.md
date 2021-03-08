@@ -1,4 +1,5 @@
 # AlefCrypt
+> Um projeto para adquirir conhecimento
 
 ### Oque é ?
 Empolgado com a aula de segurança de dados na faculdade, criei esse projeto que "códifica uma frase", 
